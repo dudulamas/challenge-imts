@@ -1,6 +1,6 @@
 # Desafio IMTS
 
-Desafio de admissão 2019.2 IMTS - Eventilândia.
+Desafio de admissão 2019.2 IMTS.
 
 
 ## Início
@@ -13,6 +13,10 @@ A avaliação se dará através da análise da construção de um Servidor Flask
 Boas práticas de programação, desenvolvimento de padrões de projetos e controle de versão serão habilidades obrigatórias para esse desafio. Essas skills serão responsáveis por **0.6** da avaliação.
 
 Implementações de outras habilidades: migrações e versionamento de banco de dados, emprego de ORM - Object Relational Mapper, controle de acesso às rotas do Servidor, utilização de um banco de dados em memória - Redis (implementação de alguma forma de cache, p.e.) e integração com outras API (e-mail, p.e.) serão skills responsáveis pelo resto da composição da nota: **0.4**.
+
+Sem estresse e sem medo, abaixo está a descrição para o seu sucesso, *may be force be with you*:
+
+![Yoda](https://www.fanthatracks.com/wp-content/uploads/2018/09/ironstudios_yoda_cover.jpg)
 
 * O Servidor, basicamente, deverá ser responsável pelo controle de Eventos e seus respectivos Usuários. 
 
