@@ -8,13 +8,13 @@ Desafio de admissão 2019.2 IMTS.
 Essas instruções farão com que você tenha uma visão de como será a avaliação. Repare bem as obrigatoriedades que o processo exigirá e os bônus que estarão disponíveis para aumentar a sua pontuação
 nesse teste.
 
-A avaliação se dará através da análise da construção de um Servidor Flask (utilizando qualquer versão, a partir da 3, da linguagem de programação Python). 
+A avaliação se dará através da análise da **construção** de um Servidor Flask (utilizando qualquer versão, a partir da 3, da linguagem de programação Python). 
 
 Boas práticas de programação, desenvolvimento de padrões de projetos e controle de versão serão habilidades obrigatórias para esse desafio. Essas skills serão responsáveis por **0.6** da avaliação.
 
-Implementações de outras habilidades: migrações e versionamento de banco de dados, emprego de ORM - Object Relational Mapper, controle de acesso às rotas do Servidor, utilização de um banco de dados em memória - Redis (implementação de alguma forma de cache, p.e.) e integração com outras API (e-mail, p.e.) serão skills responsáveis pelo resto da composição da nota: **0.4**.
+Implementações de outras habilidades: migrações e versionamento de banco de dados, emprego de ORM (Object Relational Mapper), controle de acesso às rotas do Servidor, utilização de um banco de dados em memória - Redis (implementação de alguma forma de cache, *doesn't matter*) e integração com outras API (alguma de e-mail, p.e.) serão skills responsáveis pelo resto da composição da nota: **0.4**.
 
-Sem estresse e sem medo, abaixo está a descrição para o seu sucesso, *may be force be with you*:
+Sem estresse e sem medo, abaixo está a descrição para o seu sucesso. *May be force be with you*:
 
 ![Yoda](https://www.fanthatracks.com/wp-content/uploads/2018/09/ironstudios_yoda_cover.jpg)
 
@@ -36,13 +36,13 @@ Sem estresse e sem medo, abaixo está a descrição para o seu sucesso, *may be 
 Uma estrutura básica, com algumas dependências, estará disponível. Sinta-se com liberdade para editar essa
 arquitetura.
 
-Algumas dependências, à nível de auxílio, estarão presentes no `requirements.txt`. Para fazer a instalação dessas dependências, aconselho a utilização de alguma biblioteca para virtualização de ambientes (p.e. conda ou virtualenv). Para instalar as dependências, execute, p.e.:
+Algumas dependências, à nível de auxílio, estarão presentes no `requirements.txt`. Para fazer a instalação dessas dependências, aconselho a utilização de alguma biblioteca para **virtualização de ambientes** (p.e. conda ou virtualenv). Para instalar as dependências, execute, p.e.:
 
 ```
 pip3 install -r requirements.txt
 ```
 
-Feito a instalação das dependências mínimas, dê um up no Servidor:
+Feito a instalação das dependências mínimas, dê um *up* no Servidor:
 ```
 python3 server.py
 ```
