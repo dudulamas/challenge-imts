@@ -31,12 +31,24 @@ Sem estresse e sem medo, abaixo está a descrição para o seu sucesso. *May be 
 * A funcionalidade de inscrição de Usuários à Eventos pode ser realizada tanto com uma tabela adicional, p.e. UsuarioEvento, relacionando os dois modelos, quanto com um atributo array no modelo adequado. Esta funcionalidade fica sob responsabilidade do desafiado (rsrsrs).
 
 
+![Rotas](https://cdn.panrotas.com.br/portal-panrotas-statics/media-files-original/2016/02/23/392fef1df228f691e76cbf9ed6fd437a-02route66230216.jpg)
+
+* O Servidor deve ter rotas, para validação e teste pela nossa equipe, ok? Sugestão: 
+  * */login* POST recebendo `{"username": "desafiado", "password": "vdc"}`;
+  * */recovery-password* POST recebendo `{"username": "desafiado"}`;
+  * */users* GET, POST, PUT, DELETE;
+  * */events* GET, POST, PUT, DELETE;
+  * */user-event* GET, POST, PUT, DELETE;
+
+
+* Lembre de separar o projeto em *branchs*. Quão mais próximo da realidade, maior será a nota.
+
+
 ### Instalação
 
-Uma estrutura básica, com algumas dependências, estará disponível. Sinta-se com liberdade para editar essa
-arquitetura.
+Uma estrutura básica do projeto, com algumas dependências, estará disponível. Sinta-se com liberdade para editar essa arquitetura ou usá-la.
 
-Algumas dependências, à nível de auxílio, estarão presentes no `requirements.txt`. Para fazer a instalação dessas dependências, aconselho a utilização de alguma biblioteca para **virtualização de ambientes** (p.e. conda ou virtualenv). Para instalar as dependências, execute, p.e.:
+Caso opte por usá-la, algumas dependências, à nível de auxílio, estarão presentes no `requirements.txt`. Para fazer a instalação dessas dependências, aconselho a utilização de alguma biblioteca para **virtualização de ambientes** (p.e. conda ou virtualenv). Para instalar as dependências, execute, p.e.:
 
 ```
 pip3 install -r requirements.txt
