@@ -30,8 +30,9 @@ Sem estresse e sem medo, abaixo está a descrição para o seu sucesso. *May be 
 
 * A funcionalidade de inscrição de Usuários à Eventos pode ser realizada tanto com uma tabela adicional, p.e. UsuarioEvento, relacionando os dois modelos, quanto com um atributo array no modelo adequado. Esta funcionalidade fica sob responsabilidade do desafiado (rsrsrs).
 
-
-![Rotas](https://cdn.panrotas.com.br/portal-panrotas-statics/media-files-original/2016/02/23/392fef1df228f691e76cbf9ed6fd437a-02route66230216.jpg)
+<p align="center">
+  <img src="https://cdn.panrotas.com.br/portal-panrotas-statics/media-files-original/2016/02/23/392fef1df228f691e76cbf9ed6fd437a-02route66230216.jpg" alt="Rotas"/>
+</p>
 
 * O Servidor deve ter rotas, para validação e teste pela nossa equipe, ok? Sugestão: 
   * */login* POST recebendo `{"username": "desafiado", "password": "vdc"}`;
